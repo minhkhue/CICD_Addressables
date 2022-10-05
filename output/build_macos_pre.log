@@ -1,0 +1,487 @@
+Unity Editor version:    2020.3.28f1 (f5400f52e03f)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.5 (Build 21G72)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        16384 MB
+[LicensingClient] Channel doesn't exist: "LicenseClient-minhkhue"
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.28f1/Unity.app/Contents/Frameworks/UnityLicensingClient.app/Contents/Resources/Unity.Licensing.Client
+[Licensing::Module] Successfully launched the LicensingClient (PId: 54731)
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-minhkhue" (connect: 1.36s, validation: 0.14s, handshake: 0.16s)
+[Licensing::Module] Connected to LicensingClient (PId: 54731, launch time: 0.00, total connection time: 1.66s)
+Entitlement-based licensing initiated
+[LicensingClient] Licenses updated successfully
+[Licensing::Module] Serial number assigned to: "F4-3EWD-E5SB-CGV9-752X-XXXX"
+Pro License: NO
+
+LICENSE SYSTEM [2022105 11:22:32] Next license update check is after 2022-10-05T10:01:56
+
+
+LICENSE SYSTEM [2022105 11:22:32] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+[Package Manager] Server::Start -- Port 61997 was selected
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.28f1/Unity.app/Contents/Resources/PackageManager/Server/UnityPackageManager
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.28f1/Unity.app/Contents/MacOS/Unity
+-quit
+-batchmode
+-projectPath
+./
+-executeMethod
+BuildScriptsAddressables.SetPlatformMacOS
+-logfile
+output/build_macos_pre.log
+-buildTarget
+OSXUniversal
+Successfully changed project path to: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants
+/Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants
+Using Asset Import Pipeline V2.
+[Package Manager] Restoring resolved packages state from cache
+[Package Manager] Done checking package constraints in 0.00s seconds
+[Package Manager] 
+Registered 54 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.addressables@1.18.19 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.addressables@1.18.19)
+    com.unity.ads@3.7.5 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.ads@3.7.5)
+    com.unity.analytics@3.6.12 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.analytics@3.6.12)
+    com.unity.collab-proxy@1.15.7 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.collab-proxy@1.15.7)
+    com.unity.ide.rider@2.0.7 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.ide.rider@2.0.7)
+    com.unity.ide.visualstudio@2.0.14 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.ide.visualstudio@2.0.14)
+    com.unity.ide.vscode@1.2.4 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.ide.vscode@1.2.4)
+    com.unity.multiplayer-hlapi@1.0.6 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.multiplayer-hlapi@1.0.6)
+    com.unity.purchasing@4.1.2 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.purchasing@4.1.2)
+    com.unity.test-framework@1.1.29 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.test-framework@1.1.29)
+    com.unity.textmeshpro@3.0.6 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.textmeshpro@3.0.6)
+    com.unity.timeline@1.4.8 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.timeline@1.4.8)
+    com.unity.xr.legacyinputhelpers@2.1.8 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.8)
+    com.unity.ext.nunit@1.0.6 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.ext.nunit@1.0.6)
+    com.unity.services.core@1.0.1 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.services.core@1.0.1)
+    nuget.mono-cecil@0.1.6-preview (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/nuget.mono-cecil@0.1.6-preview)
+    com.unity.nuget.newtonsoft-json@2.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0)
+    com.unity.scriptablebuildpipeline@1.19.2 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.scriptablebuildpipeline@1.19.2)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.2d.sprite@1.0.0)
+    com.unity.2d.tilemap@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.2d.tilemap@1.0.0)
+    com.unity.ugui@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.ugui@1.0.0)
+    com.unity.modules.ai@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.ai@1.0.0)
+    com.unity.modules.androidjni@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.androidjni@1.0.0)
+    com.unity.modules.animation@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.animation@1.0.0)
+    com.unity.modules.assetbundle@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.assetbundle@1.0.0)
+    com.unity.modules.audio@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.audio@1.0.0)
+    com.unity.modules.cloth@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.cloth@1.0.0)
+    com.unity.modules.director@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.director@1.0.0)
+    com.unity.modules.imageconversion@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.imageconversion@1.0.0)
+    com.unity.modules.imgui@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.imgui@1.0.0)
+    com.unity.modules.jsonserialize@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.jsonserialize@1.0.0)
+    com.unity.modules.particlesystem@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.particlesystem@1.0.0)
+    com.unity.modules.physics@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.physics@1.0.0)
+    com.unity.modules.physics2d@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.physics2d@1.0.0)
+    com.unity.modules.screencapture@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.screencapture@1.0.0)
+    com.unity.modules.terrain@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.terrain@1.0.0)
+    com.unity.modules.terrainphysics@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.terrainphysics@1.0.0)
+    com.unity.modules.tilemap@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.tilemap@1.0.0)
+    com.unity.modules.ui@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.ui@1.0.0)
+    com.unity.modules.uielements@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.uielements@1.0.0)
+    com.unity.modules.umbra@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.umbra@1.0.0)
+    com.unity.modules.unityanalytics@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.unityanalytics@1.0.0)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0)
+    com.unity.modules.vehicles@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.vehicles@1.0.0)
+    com.unity.modules.video@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.video@1.0.0)
+    com.unity.modules.vr@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.vr@1.0.0)
+    com.unity.modules.wind@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.wind@1.0.0)
+    com.unity.modules.xr@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.xr@1.0.0)
+    com.unity.modules.subsystems@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.subsystems@1.0.0)
+    com.unity.modules.uielementsnative@1.0.0 (location: /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Library/PackageCache/com.unity.modules.uielementsnative@1.0.0)
+
+FMOD failed to get number of drivers ... : "Error enumerating the available driver list. List may be inconsistent due to a recent device addition or removal. " (58)
+FMOD failed to get number of drivers ... : "Error enumerating the available driver list. List may be inconsistent due to a recent device addition or removal. " (58)
+FMOD initialized on nosound output
+[Subsystems] No new subsystems found in resolved package list.
+Package Manager log level set to [2]
+[Package Manager] Done registering packages in 0.02s seconds
+Targeting platform: OSXUniversal
+Refreshing native plugins compatible for Editor in 45.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.28f1 (f5400f52e03f)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.28f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/minhkhue/Downloads/Addressables-Sample-master/Advanced/Addressable Variants/Assets
+GfxDevice: creating device client; threaded=0
+2022-10-05 11:22:32.707 Unity[54730:2684356] (null) preferred device: Apple M1 (high power)
+2022-10-05 11:22:32.707 Unity[54730:2684356] Metal devices available: 1
+2022-10-05 11:22:32.707 Unity[54730:2684356] 0: Apple M1 (high power)
+2022-10-05 11:22:32.707 Unity[54730:2684356] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.28f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.28f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.28f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56730
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.28f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.28f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.28f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.28f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.28f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.033105 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 45.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.188 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1189ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (972ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (512ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.001323 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.009553 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+Registering precompiled user dll's ...
+Registered in 0.005660 seconds.
+AssetDatabase: script compilation time: 0.092659s
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.306 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2309ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (29ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1993ms)
+			LoadAssemblies (184ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1168ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (220ms)
+				ProcessInitializeOnLoadAttributes (830ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 3348.827ms
+	InvokeBeforeRefreshCallbacks: 0.088ms
+	ApplyChangesToAssetFolders: 0.048ms
+	Scan: 79.766ms
+	OnSourceAssetsModified: 0.001ms
+	InitializeImportedAssetsSnapshot: 0.231ms
+	GetAllGuidsForCategorization: 0.217ms
+	CategorizeAssets: 39.126ms
+	ImportAndPostprocessOutOfDateAssets: 3202.549ms (3107.976ms without children)
+		CompileScripts: 93.834ms
+		PostProcessAllAssets: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.217ms
+		InitializingProgressBar: 0.003ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.489ms
+		RestoreLoadedAssetsState: 0.030ms
+	ReloadSourceAssets: 0.327ms
+	UnloadImportedAssets: 0.004ms
+	Hotreload: 1.700ms
+	FixTempGuids: 0.005ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
+	UnloadStreamsBegin: 0.306ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.101ms
+	GetLoadedSourceAssetsSnapshot: 0.089ms
+	PersistCurrentRevisions: 0.689ms
+	UnloadStreamsEnd: 21.606ms
+	GenerateScriptTypeHashes: 0.136ms
+	Untracked: 1.973ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Refresh completed in 0.096741 seconds.
+RefreshInfo: RefreshV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 96.732ms
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 1.511ms
+Refresh completed in 0.083797 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 83.791ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.28f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+2022-10-05 11:22:37.812 Unity[54730:2684356] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000001110a0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-10-05 11:22:37.815 Unity[54730:2684356] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000124af0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Unloading 85 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.2 MB.
+System memory in use after: 187.5 MB.
+
+Unloading 151 unused Assets to reduce memory usage. Loaded Objects now: 3171.
+Total: 5.161042 ms (FindLiveObjects: 0.087666 ms CreateObjectMapping: 0.060541 ms MarkObjects: 4.586583 ms  DeleteObjects: 0.425667 ms)
+
+ProgressiveSceneManager::Cancel()
+2022-10-05 11:22:37.893 Unity[54730:2684356] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000001385b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Building Addressables!!! START PLATFORM: platform: OSXEditor target: StandaloneOSX
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BuildScriptsAddressables:BuildAddressables (object) (at Assets/Editor/BuildScriptsAddressables.cs:47)
+BuildScriptsAddressables:SetPlatformMacOS () (at Assets/Editor/BuildScriptsAddressables.cs:28)
+
+(Filename: Assets/Editor/BuildScriptsAddressables.cs Line: 47)
+
+Refresh completed in 0.039696 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 39.688ms
+DisplayProgressbar: Processing Addressable Group
+DisplayProgressbar: Switch To Build Platform
+DisplayProgressbar: Rebuild Sprite Atlas Cache
+DisplayProgressbar: Build Player Scripts
+[ScriptCompilation] Recompiling all scripts because: Compiling scripts for player
+- Starting script compilation
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.UI.dll
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll in 5.68503 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.UI.dll in 5.667404 seconds
+- Starting compile Library/PlayerScriptAssemblies/Purchasing.Common.dll
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTCore.dll
+- Starting compile Library/PlayerScriptAssemblies/Unity.Timeline.dll
+- Starting compile Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Advertisements.dll
+- Starting compile Library/PlayerScriptAssemblies/Unity.ResourceManager.dll
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.SpatialTracking.dll
+- Starting compile Library/PlayerScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Finished compile Library/PlayerScriptAssemblies/Unity.Analytics.DataPrivacy.dll in 4.355147 seconds
+- Starting compile Library/PlayerScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTCore.dll in 4.586984 seconds
+- Finished compile Library/PlayerScriptAssemblies/Purchasing.Common.dll in 4.623348 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Advertisements.dll in 4.505361 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.SpatialTracking.dll in 4.447126 seconds
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.dll
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTStub.dll
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleCore.dll
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll
+- Finished compile Library/PlayerScriptAssemblies/Unity.Timeline.dll in 4.722806 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.ResourceManager.dll in 4.630009 seconds
+- Starting compile Library/PlayerScriptAssemblies/Unity.Addressables.dll
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleCore.dll in 3.776973 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTStub.dll in 3.801014 seconds
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleMacos.dll
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Monetization.dll
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll in 3.814012 seconds
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.Security.dll
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.dll in 3.911881 seconds
+- Starting compile Library/PlayerScriptAssemblies/Unity.ScriptableBuildPipeline.dll
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll in 3.775039 seconds
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleStub.dll
+- Finished compile Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll in 8.574249 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.Addressables.dll in 3.953379 seconds
+- Finished compile Library/PlayerScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll in 4.158696 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleMacos.dll in 2.499762 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleStub.dll in 2.386089 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.ScriptableBuildPipeline.dll in 2.421608 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Monetization.dll in 2.501752 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.Security.dll in 2.475825 seconds
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.Stores.dll
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.Stores.dll in 2.767559 seconds
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.Codeless.dll
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.Codeless.dll in 0.981243 seconds
+- Starting compile Library/PlayerScriptAssemblies/Assembly-CSharp.dll
+- Finished compile Library/PlayerScriptAssemblies/Assembly-CSharp.dll in 0.728918 seconds
+- Finished script compilation in 21.359945 seconds
+BuildPlayerGenerator: Succeeded
+BuildPlayerGenerator: Succeeded
+DisplayProgressbar: Post Scripts Callback
+DisplayProgressbar: Calculate Scene Dependency Data
+DisplayProgressbar: Calculate Asset Dependency Data
+DisplayProgressbar: Add Hash To Bundle Name Task
+DisplayProgressbar: Strip Unused Sprite Sources
+DisplayProgressbar: Create Built In Shaders Bundle
+DisplayProgressbar: Post Dependency Callback
+DisplayProgressbar: Generate Bundle Packing
+DisplayProgressbar: Update Bundle Object Layout
+DisplayProgressbar: Generate Bundle Commands
+DisplayProgressbar: Generate Sub Asset Path Maps
+DisplayProgressbar: Generate Bundle Maps
+DisplayProgressbar: Post Packing Callback
+DisplayProgressbar: Write Serialized Files
+DisplayProgressbar: Archive And Compress Bundles
+DisplayProgressbar: Generate Location Lists Task
+DisplayProgressbar: Post Writing Callback
+DisplayProgressbar: Extract Data Task
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.8 MB.
+System memory in use after: 197.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3178.
+Total: 8.050041 ms (FindLiveObjects: 0.191125 ms CreateObjectMapping: 0.060459 ms MarkObjects: 7.737375 ms  DeleteObjects: 0.060375 ms)
+
+DisplayProgressbar: Post Processing AssetBundles
+DisplayProgressbar: Post Processing Catalog Entries
+Addressable content successfully built (duration : 0:00:23.929)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:BuildPlayerContentImpl () (at Library/PackageCache/com.unity.addressables@1.18.19/Editor/Settings/AddressableAssetSettings.cs:2155)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:BuildPlayerContent (UnityEditor.AddressableAssets.Build.AddressablesPlayerBuildResult&) (at Library/PackageCache/com.unity.addressables@1.18.19/Editor/Settings/AddressableAssetSettings.cs:2130)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:BuildPlayerContent () (at Library/PackageCache/com.unity.addressables@1.18.19/Editor/Settings/AddressableAssetSettings.cs:2097)
+BuildScriptsAddressables:BuildAddressables (object) (at Assets/Editor/BuildScriptsAddressables.cs:50)
+BuildScriptsAddressables:SetPlatformMacOS () (at Assets/Editor/BuildScriptsAddressables.cs:28)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.19/Editor/Settings/AddressableAssetSettings.cs Line: 2155)
+
+Start importing Assets/AddressableAssetsData/OSX/addressables_content_state.bin using Guid(85e98f29012e543d3a844aed121b2102) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'cf1b33ef09b04e831b36a329a2a20bb9') in 0.084449 seconds 
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refresh completed in 0.320955 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 320.934ms
+	InvokeBeforeRefreshCallbacks: 0.001ms
+	ApplyChangesToAssetFolders: 0.168ms
+	Scan: 77.277ms
+	OnSourceAssetsModified: 1.877ms
+	InitializeImportedAssetsSnapshot: 7.428ms
+	GetAllGuidsForCategorization: 0.350ms
+	CategorizeAssets: 2.467ms
+	ImportAndPostprocessOutOfDateAssets: 224.140ms (0.939ms without children)
+		ImportManagerImport: 90.448ms (3.329ms without children)
+			ImportInProcess: 87.102ms
+			UpdateCategorizedAssets: 0.017ms
+		PostProcessAllAssets: 128.835ms
+		ReloadImportedAssets: 0.001ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.397ms
+		InitializingProgressBar: 0.212ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.225ms
+		OnDemandSchedulerStart: 0.159ms
+		RestoreLoadedAssetsState: 0.665ms
+	UpdateImportedAssetsSnapshot: 2.259ms
+	ReloadSourceAssets: 0.261ms
+	UnloadImportedAssets: 0.138ms
+	Hotreload: 1.430ms
+	FixTempGuids: 0.007ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.234ms
+	UnloadStreamsBegin: 0.089ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.380ms
+	GetLoadedSourceAssetsSnapshot: 1.854ms
+	PersistCurrentRevisions: 0.186ms
+	UnloadStreamsEnd: 0.270ms
+	Untracked: 2.378ms
+Building Addressables!!! DONE
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BuildScriptsAddressables:BuildAddressables (object) (at Assets/Editor/BuildScriptsAddressables.cs:52)
+BuildScriptsAddressables:SetPlatformMacOS () (at Assets/Editor/BuildScriptsAddressables.cs:28)
+
+(Filename: Assets/Editor/BuildScriptsAddressables.cs Line: 52)
+
+Batchmode quit successfully invoked - shutting down!
+[Performance] Application.InitializeProject                               :        1 samples, Peak.  5.76 s (1.0x), Avg.  5.76 s, Total. 5.757 s (18.0%)
+[Performance] Application.PackageManager.StartServer                      :        1 samples, Peak.  1.61 ms (1.0x), Avg.  1.61 ms, Total. 1.611 ms (0.0%)
+[Performance] Application.AcquireProjectLock                              :        1 samples, Peak.  5.01 ms (1.0x), Avg.  5.01 ms, Total. 5.008 ms (0.0%)
+[Performance] Application.InitializeEngineNoGraphics                      :        1 samples, Peak.  9.50 ms (1.0x), Avg.  9.50 ms, Total. 9.504 ms (0.0%)
+[Performance] Application.PackageManager.Initialize                       :        1 samples, Peak.   450 ms (1.0x), Avg.   450 ms, Total. 450.0 ms (1.4%)
+[Performance] CurlRequestCheck                                            :        9 samples, Peak.  79.9 us (3.4x), Avg.  23.4 us, Total. 210.8 us (0.0%)
+[Performance] VersionControl.Task.Wait                                    :        1 samples, Peak.  17.0 us (1.0x), Avg.  17.0 us, Total. 16.96 us (0.0%)
+[Performance] Application.EngineGraphics.Initialize                       :        1 samples, Peak.  55.3 ms (1.0x), Avg.  55.3 ms, Total. 55.34 ms (0.2%)
+[Performance] Application.GI.Initialize                                   :        1 samples, Peak.   642 us (1.0x), Avg.   642 us, Total. 641.7 us (0.0%)
+[Performance] Application.LoadAllDefaultResourcesFromEditor               :        1 samples, Peak.  1.47 ms (1.0x), Avg.  1.47 ms, Total. 1.470 ms (0.0%)
+[Performance] Application.LoadMonoAssemblies                              :        1 samples, Peak.  1.19 s (1.0x), Avg.  1.19 s, Total. 1.192 s (3.7%)
+[Performance] RestoreManagedReferences                                    :        2 samples, Peak.   148 ms (2.0x), Avg.  73.8 ms, Total. 147.6 ms (0.5%)
+[Performance] ProcessService.EditorAfterLoadAllAssemblies                 :        2 samples, Peak.   846 us (1.0x), Avg.   843 us, Total. 1.686 ms (0.0%)
+[Performance] Application.ReadLicenseInfo                                 :        1 samples, Peak.  14.9 ms (1.0x), Avg.  14.9 ms, Total. 14.86 ms (0.0%)
+[Performance] Application.InitialScriptRefresh                            :        1 samples, Peak.  3.35 s (1.0x), Avg.  3.35 s, Total. 3.352 s (10.5%)
+[Performance] Compiling Scripts                                           :        1 samples, Peak.  93.8 ms (1.0x), Avg.  93.8 ms, Total. 93.80 ms (0.3%)
+[Performance] Application.AssetDatabase.Refresh                           :        1 samples, Peak.  96.8 ms (1.0x), Avg.  96.8 ms, Total. 96.83 ms (0.3%)
+[Performance] AssetDatabase.Refresh                                       :        3 samples, Peak.   321 ms (2.1x), Avg.   153 ms, Total. 457.6 ms (1.4%)
+[Performance] Application.ImportAssetsWithMismatchingAssetImporterVersion :        1 samples, Peak.   103 ms (1.0x), Avg.   103 ms, Total. 103.1 ms (0.3%)
+[Performance] Application.SyncCurrentColorSpace                           :        1 samples, Peak.  56.5 ms (1.0x), Avg.  56.5 ms, Total. 56.47 ms (0.2%)
+[Performance] Application.OnUsbDevicesChanged                             :        1 samples, Peak.   287 us (1.0x), Avg.   287 us, Total. 287.3 us (0.0%)
+[Performance] Application.AssetInstanceCacheUpdate                        :        1 samples, Peak.   791 ns (1.0x), Avg.   791 ns, Total. 791.0 ns (0.0%)
+[Performance] Application.UnityExtensions.Initialize                      :        1 samples, Peak.  1.54 ms (1.0x), Avg.  1.54 ms, Total. 1.537 ms (0.0%)
+[Performance] Application.InitializeManagedCompilationPipeline            :        1 samples, Peak.  72.5 ms (1.0x), Avg.  72.5 ms, Total. 72.49 ms (0.2%)
+[Performance] Application.ExecuteStartups                                 :        1 samples, Peak.  44.4 ms (1.0x), Avg.  44.4 ms, Total. 44.36 ms (0.1%)
+[Performance] Gizmo.RebuildRenderers                                      :        1 samples, Peak.  42.3 ms (1.0x), Avg.  42.3 ms, Total. 42.32 ms (0.1%)
+[Performance] Gizmo.AddGizmoRenderers                                     :       80 samples, Peak.  2.80 ms (40.0x), Avg.  70.0 us, Total. 5.603 ms (0.0%)
+[Performance] Application.InitializeMenu                                  :        1 samples, Peak.  71.4 ms (1.0x), Avg.  71.4 ms, Total. 71.41 ms (0.2%)
+[Performance] UpdateAllMenus                                              :        1 samples, Peak.  67.5 ms (1.0x), Avg.  67.5 ms, Total. 67.46 ms (0.2%)
+[Performance] Application.editorInitializingProject                       :        1 samples, Peak.  28.4 us (1.0x), Avg.  28.4 us, Total. 28.42 us (0.0%)
+[Performance] GUIView.RepaintAll.PlayerLoopController                     :        2 samples, Peak.  20.2 us (1.5x), Avg.  13.1 us, Total. 26.21 us (0.0%)
+[Performance] Application.InvokeFinishedLoadingProject                    :        1 samples, Peak.  5.80 ms (1.0x), Avg.  5.80 ms, Total. 5.801 ms (0.0%)
+[Performance] ProcessService.OnProjectLoaded                              :        1 samples, Peak.   118 us (1.0x), Avg.   118 us, Total. 117.5 us (0.0%)
+[Performance] GenerateAssemblyTypeInfos                                   :        2 samples, Peak.   792 ms (1.1x), Avg.   738 ms, Total. 1.476 s (4.6%)
+[Performance] PresetManagerPostProcessor.OnPreprocessAsset                :        1 samples, Peak.   852 us (1.0x), Avg.   852 us, Total. 851.8 us (0.0%)
+[Performance] CancelSplashScreenOnAssetChange.OnPreprocessAsset           :        1 samples, Peak.   318 us (1.0x), Avg.   318 us, Total. 317.7 us (0.0%)
+[Performance] AssetDatabase.ImportAssets                                  :        1 samples, Peak.   541 ns (1.0x), Avg.   541 ns, Total. 541.0 ns (0.0%)
+[Performance] AssemblyPostProcessor.OnPostprocessAllAssets                :        1 samples, Peak.  1.08 ms (1.0x), Avg.  1.08 ms, Total. 1.077 ms (0.0%)
+[Performance] AddressablesAssetPostProcessor.OnPostprocessAllAssets       :        1 samples, Peak.  2.10 ms (1.0x), Avg.  2.10 ms, Total. 2.101 ms (0.0%)
+[Performance] AssetPostprocessor.OnPostprocessAllAssets                   :        1 samples, Peak.   343 us (1.0x), Avg.   343 us, Total. 343.2 us (0.0%)
+[Performance] SpriteEditorTexturePostprocessor.OnPostprocessAllAssets     :        1 samples, Peak.   811 us (1.0x), Avg.   811 us, Total. 811.5 us (0.0%)
+[Performance] TMPro_TexturePostProcessor.OnPostprocessAllAssets           :        1 samples, Peak.   776 us (1.0x), Avg.   776 us, Total. 775.6 us (0.0%)
+[Performance] AssetProcessor.OnPostprocessAllAssets                       :        3 samples, Peak.  1.51 ms (1.5x), Avg.   977 us, Total. 2.932 ms (0.0%)
+[Performance] RetainedMode.OnPostprocessAllAssets                         :        1 samples, Peak.  1.38 ms (1.0x), Avg.  1.38 ms, Total. 1.383 ms (0.0%)
+[Performance] EditorAtlasMonitorInjector.OnPostprocessAllAssets           :        1 samples, Peak.   643 us (1.0x), Avg.   643 us, Total. 642.5 us (0.0%)
+[Performance] AudioMixerPostprocessor.OnPostprocessAllAssets              :        1 samples, Peak.   873 us (1.0x), Avg.   873 us, Total. 872.7 us (0.0%)
+[Performance] AssetEvents.OnPostprocessAllAssets                          :        2 samples, Peak.   331 us (1.4x), Avg.   238 us, Total. 475.7 us (0.0%)
+[Performance] ModelImporterPostProcessor.OnPostprocessAllAssets           :        1 samples, Peak.  2.56 ms (1.0x), Avg.  2.56 ms, Total. 2.563 ms (0.0%)
+[Performance] StyleCatalogPostProcessor.OnPostprocessAllAssets            :        1 samples, Peak.  91.0 ms (1.0x), Avg.  91.0 ms, Total. 91.03 ms (0.3%)
+[Performance] BuildCatalog                                                :        1 samples, Peak.  89.5 ms (1.0x), Avg.  89.5 ms, Total. 89.52 ms (0.3%)
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+debugger-agent: Unable to listen on 46
+[usbmuxd] Stop listen thread
+[usbmuxd] Error: 
+[usbmuxd] Listen thread exiting
+Exiting batchmode successfully now!
+[Package Manager] Server::Kill -- Server was shutdown
