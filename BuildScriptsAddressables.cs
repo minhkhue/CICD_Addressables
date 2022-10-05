@@ -24,7 +24,7 @@ public class BuildScriptsAddressables
         EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTargetGroup.Standalone, BuildTarget.StandaloneOSX);
         EditorUserBuildSettings.selectedStandaloneTarget = BuildTarget.StandaloneOSX;
 
-
+ 
         BuildAddressables();
     }
 
