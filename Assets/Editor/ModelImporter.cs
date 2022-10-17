@@ -6,12 +6,11 @@ using UnityEditor;
 using UnityEditor.AddressableAssets;
 using UnityEditor.AddressableAssets.Settings;
 using UnityEditor.AddressableAssets.Settings.GroupSchemas;
-using UnityEditor.Compilation;
 using UnityEditor.VersionControl;
 using UnityEngine;
 public class ApiServer 
 {
-    public static string ImportingModelName = "3";
+    public static string ImportingModelName = "Model01";
     
 }
 public class ModelImporter
@@ -97,10 +96,9 @@ public class ModelImporter
             }
         }
     }
-    
-    public static void ImportModel(object obj)
+    [MenuItem("NOVA/ImportModel/ImportModel", false, 111)]
+    public static void ImportModel()
     {
-        CompilationPipeline.compilationFinished -= ImportModel;
         var directPath = "Assets/Nova/Models";
 
         var modelName = ApiServer.ImportingModelName;
@@ -123,13 +121,5 @@ public class ModelImporter
 
         SetAddressableGroup(path, modelName);
 
-    }
-
-    [MenuItem("NOVA/ImportModel/ImportModel", false, 111)]
-    public static void StartImportModel()
-    {
-
-            ImportModel(null);
-        
     }
 }
