@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using UnityEditor;
 using UnityEditor.AddressableAssets;
+using UnityEditor.AddressableAssets.Build;
 using UnityEditor.AddressableAssets.Settings;
 using UnityEditor.Compilation;
 using UnityEngine;
@@ -43,12 +45,38 @@ public class BuildScriptsAddressables
         if (isListening)
             CompilationPipeline.compilationFinished -= BuildAddressables;
 
-        //AddressableAssetSettingsDefaultObject.Settings = AddressableAssetSettings.Create();
-        Debug.Log("Building Addressables!!! START PLATFORM: platform: " + Application.platform + " target: " + EditorUserBuildSettings.selectedStandaloneTarget);
+        ////AddressableAssetSettingsDefaultObject.Settings = AddressableAssetSettings.Create();
+        //Debug.Log("Building Addressables!!! START PLATFORM: platform: " + Application.platform + " target: " + EditorUserBuildSettings.selectedStandaloneTarget);
 
-        AddressableAssetSettings.CleanPlayerContent();
-        AddressableAssetSettings.BuildPlayerContent();
+        //AddressableAssetSettings.CleanPlayerContent();
+        //AddressableAssetSettings.BuildPlayerContent();
 
-        Debug.Log("Building Addressables!!! DONE");
+        //Debug.Log("Building Addressables!!! DONE");
+
+        UpdateOrBuildPlayerContent(BuildTarget.StandaloneOSX);
+    }
+
+
+    public static void BuildOrUpdatePlayerContent(string contentStatePath)
+    {
+        bool contentFileExists = File.Exists(contentStatePath);
+        if (contentFileExists)
+        {
+            ContentUpdateScript.BuildContentUpdate(AddressableAssetSettingsDefaultObject.Settings, contentStatePath);
+        }
+        else
+        {
+            AddressableAssetSettings.CleanPlayerContent(AddressableAssetSettingsDefaultObject.Settings.ActivePlayerDataBuilder);
+            AddressableAssetSettings.BuildPlayerContent();
+        }
+    }
+
+    public static void UpdateOrBuildPlayerContent(BuildTarget buildTarget)
+    {
+
+        AddressableAssetSettingsDefaultObject.Settings.activeProfileId = AddressableAssetSettingsDefaultObject.Settings.profileSettings.GetProfileId("Hosted");
+
+        string contentStatePath = "Assets/AddressableAssetsData/" + buildTarget.ToString() + "/addressables_content_state.bin";
+        BuildOrUpdatePlayerContent(contentStatePath);
     }
 }
