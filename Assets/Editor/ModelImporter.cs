@@ -6,11 +6,12 @@ using UnityEditor;
 using UnityEditor.AddressableAssets;
 using UnityEditor.AddressableAssets.Settings;
 using UnityEditor.AddressableAssets.Settings.GroupSchemas;
+using UnityEditor.Compilation;
 using UnityEditor.VersionControl;
 using UnityEngine;
 public class ApiServer 
 {
-    public static string ImportingModelName = "Model01";
+    public static string ImportingModelName = "3";
     
 }
 public class ModelImporter
@@ -72,7 +73,7 @@ public class ModelImporter
         foreach (string item2 in hashSet)
         {
             AssetDatabase.WriteImportSettingsIfDirty(item2);
-AssetDatabase.ImportAsset(item2, ImportAssetOptions.ForceUpdate);
+            AssetDatabase.ImportAsset(item2, ImportAssetOptions.ForceUpdate);
         }
     }
 
@@ -96,9 +97,10 @@ AssetDatabase.ImportAsset(item2, ImportAssetOptions.ForceUpdate);
             }
         }
     }
-    [MenuItem("NOVA/ImportModel/ImportModel", false, 111)]
-    public static void ImportModel()
+    
+    public static void ImportModel(object obj)
     {
+        CompilationPipeline.compilationFinished -= ImportModel;
         var directPath = "Assets/Nova/Models";
 
         var modelName = ApiServer.ImportingModelName;
@@ -121,5 +123,18 @@ AssetDatabase.ImportAsset(item2, ImportAssetOptions.ForceUpdate);
 
         SetAddressableGroup(path, modelName);
 
+    }
+
+    [MenuItem("NOVA/ImportModel/ImportModel", false, 111)]
+    public static void StartImportModel()
+    {
+        if (EditorApplication.isCompiling)
+        {
+            CompilationPipeline.compilationFinished += ImportModel;
+        }
+        else
+        {
+            ImportModel(null);
+        }
     }
 }
