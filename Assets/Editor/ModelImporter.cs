@@ -128,13 +128,8 @@ public class ModelImporter
     [MenuItem("NOVA/ImportModel/ImportModel", false, 111)]
     public static void StartImportModel()
     {
-        if (EditorApplication.isCompiling)
-        {
-            CompilationPipeline.compilationFinished += ImportModel;
-        }
-        else
-        {
+
             ImportModel(null);
-        }
+        
     }
 }
