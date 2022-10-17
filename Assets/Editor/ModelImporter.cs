@@ -44,7 +44,7 @@ public class ModelImporter
         var fileInfo = info.GetFiles();
         Debug.Log(fileInfo.Length);
         if (fileInfo == null || fileInfo.Length ==0) return;
-        if ( fileInfo.Length != 4 && fileInfo.Length != 5 )  return;// == 5 .DS_Store File
+        //if ( fileInfo.Length != 4 && fileInfo.Length != 5 )  return;// == 5 .DS_Store File
         Debug.Log("Extract");
         var assetPath = directPath + "/" + modelName + "/"+modelName+".FBX";
         var destinationPath = directPath + "/" + modelName;
