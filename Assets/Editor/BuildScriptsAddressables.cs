@@ -66,8 +66,8 @@ public class BuildScriptsAddressables
         }
         else
         {
-            //AddressableAssetSettings.CleanPlayerContent(AddressableAssetSettingsDefaultObject.Settings.ActivePlayerDataBuilder);
-            //AddressableAssetSettings.BuildPlayerContent();
+            AddressableAssetSettings.CleanPlayerContent(AddressableAssetSettingsDefaultObject.Settings.ActivePlayerDataBuilder);
+            AddressableAssetSettings.BuildPlayerContent();
         }
     }
 
