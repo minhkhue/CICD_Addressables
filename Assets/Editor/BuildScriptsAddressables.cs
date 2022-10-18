@@ -73,10 +73,12 @@ public class BuildScriptsAddressables
 
     public static void UpdateOrBuildPlayerContent(BuildTarget buildTarget)
     {
-
+        var strTarget = "";
         AddressableAssetSettingsDefaultObject.Settings.activeProfileId = AddressableAssetSettingsDefaultObject.Settings.profileSettings.GetProfileId("Hosted");
-
-        string contentStatePath = "Assets/AddressableAssetsData/" + buildTarget.ToString() + "/addressables_content_state.bin";
+        if(buildTarget == BuildTarget.StandaloneOSX){
+            strTarget = "OSX";
+        }
+        string contentStatePath = "Assets/AddressableAssetsData/" + strTarget + "/addressables_content_state.bin";
         BuildOrUpdatePlayerContent(contentStatePath);
     }
 }
