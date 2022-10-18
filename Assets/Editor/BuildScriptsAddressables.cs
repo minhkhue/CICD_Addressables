@@ -7,7 +7,7 @@ using UnityEditor.AddressableAssets;
 using UnityEditor.AddressableAssets.Build;
 using UnityEditor.AddressableAssets.Settings;
 using UnityEditor.Compilation;
-using UnityEngine;
+using UnityEngine; 
 
 public class BuildScriptsAddressables
 {
