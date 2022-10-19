@@ -23,9 +23,10 @@ public class ModelImporter
         if (settings)
         {
             var group = settings.FindGroup(groupName);
-            if (group)settings.RemoveGroup(group);
+            //if (group)settings.RemoveGroup(group);
+            if(!group)
+                group = settings.CreateGroup(groupName, false, false, true, null, typeof(ContentUpdateGroupSchema), typeof(BundledAssetGroupSchema));
             
-            group = settings.CreateGroup(groupName, false, false, true, null, typeof(ContentUpdateGroupSchema), typeof(BundledAssetGroupSchema));
             var guid = AssetDatabase.AssetPathToGUID(assetPath);
  
             var e = settings.CreateOrMoveEntry(guid, group, false, false);
