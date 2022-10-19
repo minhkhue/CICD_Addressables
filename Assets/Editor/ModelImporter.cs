@@ -56,7 +56,7 @@ public class ModelImporter
         HashSet<string> hashSet = new HashSet<string>();
         IEnumerable<Object> enumerable = from x in AssetDatabase.LoadAllAssetsAtPath(assetPath)
             where x.GetType() == typeof(Material)
-            select x;
+            select x; 
         Debug.LogWarning(enumerable.Count());
         foreach (Object item in enumerable)
         {
