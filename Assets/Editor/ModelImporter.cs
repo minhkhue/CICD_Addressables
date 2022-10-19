@@ -36,6 +36,8 @@ public class ModelImporter
  
             group.SetDirty(AddressableAssetSettings.ModificationEvent.EntryMoved, entriesAdded, false, true);
             settings.SetDirty(AddressableAssetSettings.ModificationEvent.EntryMoved, entriesAdded, true, false);
+            AssetDatabase.SaveAssets();
+
         }
     }
 
