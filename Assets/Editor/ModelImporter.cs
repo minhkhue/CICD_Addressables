@@ -23,7 +23,7 @@ public class ModelImporter
         if (settings)
         {
             var group = settings.FindGroup(groupName);
-            Debug.Log("Name of selected group: " + group.name);
+            //Debug.Log("Name of selected group: " + group.name);
 
             //if (group)settings.RemoveGroup(group);
             if(!group)
